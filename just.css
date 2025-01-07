@@ -106,10 +106,10 @@ body{
         }
         .intro_images .logo_bandb{
             path.bg{
-                fill: var(--color_background);
+                fill: var(--color_foreground);
             }
             path.letter{
-                fill: var(--color_foreground);
+                fill: var(--color_background);
             }
         }
     }
