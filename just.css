@@ -215,6 +215,7 @@ body{
         color: var(--color_accent);
     }
     .text_magic{
+        font-size: inherit;
         font-family: var(--font_magic) !important;
         color: var(--color_accent) !important;
     }
@@ -288,6 +289,7 @@ body{
         transition: 0.3s ease;
         color: var(--color_foreground);
         background-position: top;
+        cursor: pointer;
         background-image: linear-gradient(var(--color_background) 50%, var(--color_accent) 50%);
         &:focus,
         &:hover {
