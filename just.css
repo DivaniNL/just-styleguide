@@ -85,12 +85,12 @@ body{
         .show_dark{
             display: block;
         }
-        header .logo_bandb{
+        .intro_images .logo_bandb{
             path.letter{
-                fill: var(--color_foreground);
+                fill: var(--color_background);
             }
             path.bg{
-                fill: var(--color_background);
+                fill: var(--color_foreground);
             }
         }
     }
@@ -104,11 +104,33 @@ body{
         .show_light{
             display: block;
         }
+        .intro_images .logo_bandb{
+            path.bg{
+                fill: var(--color_background);
+            }
+            path.letter{
+                fill: var(--color_foreground);
+            }
+        }
     }
     @media (prefers-color-scheme: dark) {
         --color_background: var(--black) !important;
         --color_foreground: var(--white) !important;
         --color_accent: var(--yellow) !important;
+        .show_light{
+            display: none !important;
+        }
+        .show_dark{
+            display: block !important;
+        }
+        .intro_images .logo_bandb{
+            path.letter{
+                fill: var(--color_background);
+            }
+            path.bg{
+                fill: var(--color_foreground);
+            }
+        }
     }
 }
 body{
