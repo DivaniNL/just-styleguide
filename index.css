@@ -41,6 +41,31 @@
       border-radius: 50%;
       aspect-ratio: 1;
       background: #ccc;
+      &.black{
+        background: var(--black);
+        color: var(--white);
+      }
+      &.white{
+        background: var(--white);
+      }
+      &.blue{
+        background: var(--blue);
+      }
+      &.yellow{
+        background: var(--yellow);
+      }
+      &.orange{
+        background: var(--orange);
+      }
+      &.purple{
+        background: var(--purple);
+      }
+      &.green{
+        background: var(--green);
+      }
+      &.pink{
+        background: var(--pink);
+      }
     }
   }
 }
