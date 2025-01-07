@@ -219,6 +219,9 @@ body{
         font-family: var(--font_magic) !important;
         color: var(--color_accent) !important;
     }
+    .text_large{
+        font-size: var(--fonts_large);
+    }
     /* FORMS */
     form {
         label {
