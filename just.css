@@ -272,11 +272,13 @@ a.footer_link{
     font-family: var(--font_light);
 }
 .text_subheading{
-    margin-top: 36px;
     margin-bottom: 21px;
     color: var(--color_accent);
     font-size: var(--fonts_subheadings);
     line-height: var(--line_subheadings);
+}
+p + .text_subheading{
+    margin-top: 36px;
 }
 p a{
     font-size: inherit;
