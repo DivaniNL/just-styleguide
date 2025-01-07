@@ -82,6 +82,9 @@ body{
         .show_light{
             display: none;
         }
+        .show_dark{
+            display: block;
+        }
     }
     &.mode_light {
         --color_background: var(--white);
@@ -89,6 +92,9 @@ body{
         --color_accent: var(--orange);
         .show_dark{
             display: none;
+        }
+        .show_light{
+            display: block;
         }
     }
     @media (prefers-color-scheme: dark) {
