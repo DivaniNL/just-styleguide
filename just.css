@@ -100,8 +100,7 @@ body{
 body{
     background-color: var(--color_background);
     color: var(--color_foreground);
-
-
+    font-family: var(--font_light); /*fallback */
     /* Fonts */
     --font_reg: "Antique-Legacy-Regular";
     --font_light: "Antique-Legacy-Light";
@@ -258,10 +257,12 @@ a.footer_link{
 .text_medium{
     font-size: var(--fonts_medium);
     line-height: var(--line_medium);
+    font-family: var(--font_light);
 }
 .text_large{
     font-size: var(--fonts_large);
     line-height: var(--line_large);
+    font-family: var(--font_light);
 }
 .text_subheading{
     margin-top: 36px;
