@@ -221,6 +221,14 @@ body{
     }
     .text_large{
         font-size: var(--fonts_large);
+        line-height: var(--line_large);
+    }
+    .text_subheading{
+        font-size: var(--fonts_subheadings);
+        line-height: var(--line_subheadings);
+    }
+    p a{
+        font-size: inherit;
     }
     /* FORMS */
     form {
