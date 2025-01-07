@@ -264,6 +264,7 @@ a.footer_link{
     font-size: var(--fonts_medium);
     line-height: var(--line_medium);
     font-family: var(--font_light);
+    font-weight: 300 !important;
 }
 .text_large{
     font-size: var(--fonts_large);
@@ -322,7 +323,7 @@ form {
         margin-left: 15px;
         padding-bottom: 4px;
         border-bottom: 1px solid var(--color_accent);
-        background-size: 100% 201%;
+        background-size: 101% 201%;
         transition: 0.3s ease;
         background-position: top;
         background-image: linear-gradient(var(--color_background) 50%, var(--color_accent) 50%);
@@ -346,7 +347,7 @@ button.btn_main{
     line-height: var(--line_xs);
     border-radius: 30px;
     letter-spacing: 4%;
-    background-size: 100% 200%;
+    background-size: 101% 200%;
     transition: 0.3s ease;
     color: var(--color_foreground);
     background-position: top;
