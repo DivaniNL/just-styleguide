@@ -51,7 +51,13 @@
     font-style: normal;
 }
 *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
     font-size: 18px;
+}
+html{
+    scroll-behavior: smooth;
 }
 body{
     /* Colors */
@@ -138,6 +144,27 @@ body{
     @media (min-width: 1440px){
         --line_headings: 4rem;
         --line_headings_large: 6rem;
+    }
+}
+.hidden {
+    display: none !important;
+}
+
+.mobile_hidden {
+    @media (max-width: 819px) {
+        display: none !important;
+    }
+}
+
+.tablet_hidden {
+    @media (min-width: 820px) and (max-width: 1439px) {
+        display: none !important;
+    }
+}
+
+.desktop_hidden {
+    @media (min-width: 1440px) {
+        display: none !important;
     }
 }
 /* Predetermined values */
