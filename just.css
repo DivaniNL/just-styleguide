@@ -89,6 +89,9 @@ body{
             path.letter{
                 fill: var(--color_foreground);
             }
+            path.bg{
+                fill: var(--color_background);
+            }
         }
     }
     &:has(select > option.light:checked) {
