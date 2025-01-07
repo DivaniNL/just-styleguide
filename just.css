@@ -85,6 +85,11 @@ body{
         .show_dark{
             display: block;
         }
+        header .logo_bandb{
+            path.letter{
+                fill: var(--color_foreground);
+            }
+        }
     }
     &:has(select > option.light:checked) {
         --color_background: var(--white);
@@ -98,9 +103,9 @@ body{
         }
     }
     @media (prefers-color-scheme: dark) {
-        --color_background: var(--black);
-        --color_foreground: var(--white);
-        --color_accent: var(--yellow);
+        --color_background: var(--black) !important;
+        --color_foreground: var(--white) !important;
+        --color_accent: var(--yellow) !important;
     }
 }
 body{
