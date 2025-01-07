@@ -63,15 +63,23 @@ body{
     --purple: #A560FF;
     --green: #00C46D;
     --pink: #F3A0D6;
-    @media (prefers-color-scheme: dark) {
+    --color_background: var(--black);
+    --color_foreground: var(--white);
+    --color_accent: var(--yellow);
+    &.mode_dark {
         --color_background: var(--black);
         --color_foreground: var(--white);
         --color_accent: var(--yellow);
     }
-    @media (prefers-color-scheme: light) {
+    &.mode_light {
         --color_background: var(--white);
         --color_foreground: var(--black);
         --color_accent: var(--orange);
+    }
+    @media (prefers-color-scheme: dark) {
+        --color_background: var(--black);
+        --color_foreground: var(--white);
+        --color_accent: var(--yellow);
     }
 }
 body{
