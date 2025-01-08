@@ -326,7 +326,7 @@ a.footer_link{
     line-height: var(--line_subheadings);
 }
 p + .text_subheading{
-    margin-top: 36px;
+    margin-top: 11px;
 }
 p a{
     font-size: inherit;
