@@ -298,10 +298,11 @@ a.footer_link{
     font-size: inherit;
 }
 .text_magic{
-    font-size: inherit;
     font-family: var(--font_magic) !important;
     color: var(--color_accent) !important;
-
+}
+.h1 > .text_magic{
+    font-size: inherit;
 }
 .text_small{
     font-size: var(--fonts_small);
