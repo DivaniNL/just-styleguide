@@ -404,7 +404,7 @@ button.btn_main{
     letter-spacing: 4%;
     background-size: 101% 200%;
     transition: 0.3s ease;
-    color: var(--color_foreground);
+    color: var(--black);
     background-position: top;
     cursor: pointer;
     background-image: linear-gradient(var(--color_background) 50%, var(--color_accent) 50%);
