@@ -1,3 +1,64 @@
+@font-face {
+    font-family: "Antique-Legacy-Regular";
+    src:
+        url("assets/Fonts/Antique-Legacy/Antique-Legacy-Regular.woff2") format("woff2"),
+        url("assets/Fonts/Antique-Legacy/Antique-Legacy-Regular.woff") format("woff"),
+        url("assets/Fonts/Antique-Legacy/Antique-Legacy-Regular.otf") format("opentype");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Antique-Legacy-Regular";
+    src:
+        url("assets/Fonts/Antique-Legacy/Antique-Legacy-Italic.otf") format("opentype");
+    font-weight: 400;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Antique-Legacy-Medium";
+    src:
+        url("assets/Fonts/Antique-Legacy/Antique-Legacy-Medium.otf") format("opentype");
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Antique-Legacy-Light";
+    src:
+        url("assets/Fonts/Antique-Legacy/Antique-Legacy-Light-Italic.woff2") format("woff2"),
+        url("assets/Fonts/Antique-Legacy/Antique-Legacy-Light-Italic.woff") format("woff"),
+        url("assets/Fonts/Antique-Legacy/Antique-Legacy-Light-Italic.otf") format("opentype");
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Antique-Legacy-Light";
+    src:
+        url("assets/Fonts/Antique-Legacy/Antique-Legacy-Light.woff2") format("woff2"),
+        url("assets/Fonts/Antique-Legacy/Antique-Legacy-Light.woff") format("woff"),
+        url("assets/Fonts/Antique-Legacy/Antique-Legacy-Light.otf") format("opentype");
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Parabole Display";
+    src:
+        url("assets/Fonts/Parabole Display/parabole-displayregular.otf") format("opentype");
+    font-weight: bold;
+    font-style: normal;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 18px;
+}
+html{
+    scroll-behavior: smooth;
+}
 body{
     /* Colors */
     --black: #000;
