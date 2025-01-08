@@ -220,14 +220,14 @@ p.text_body{
     line-height: var(--line_reg);
     font-family: var(--font_light);
 }
-h1.h1, h2.h2{
+.h1, .h2{
     font-family: var(--font_reg);
     text-transform: uppercase;
     font-size: var(--fonts_headings_large);
     line-height: var(--line_headings_large);
     color: var(--color_foreground);
 }
-h3.h3, h4.h4, h5.h5{
+.h3, .h4, .h5{
     font-family: var(--font_reg);
     font-size: var(--fonts_headings);
     line-height: var(--line_headings);
