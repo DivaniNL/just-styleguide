@@ -325,6 +325,10 @@ a.footer_link{
     font-size: var(--fonts_subheadings);
     line-height: var(--line_subheadings);
 }
+section.body_text{
+    display: grid;
+    gap: 25px;
+}
 p + .text_subheading{
     margin-top: 11px;
 }
