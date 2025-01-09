@@ -249,7 +249,7 @@ a.text_link{
         width: 100%;
         transform: scaleX(1);
         height: 2px;
-        bottom: -2px;
+        bottom: 2px;
         left: 0;
         background-color: var(--color_accent);
         transform-origin: bottom right;
@@ -257,11 +257,11 @@ a.text_link{
         }
         &:hover,
         &:focus {
-        color: var(--blue);
-        &:after {
-            transform: scaleX(0);
-            transform-origin: bottom left;
-        }
+            color: var(--blue);
+            &:after {
+                transform: scaleX(0);
+                transform-origin: bottom left;
+            }
         }
 }
 a.footer_link{
