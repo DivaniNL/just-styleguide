@@ -322,6 +322,7 @@ a.footer_link{
     font-family: var(--font_light);
 }
 .text_subheading{
+    font-weight: 400;
     color: var(--color_accent);
     font-size: var(--fonts_subheadings);
     line-height: var(--line_subheadings);
