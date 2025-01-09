@@ -93,7 +93,7 @@ body{
         --fonts_small: 0.8rem; /* 16px */
         --fonts_reg: 0.8rem; /* 18px */
     }
-    @media (min-width: 820px){
+    @media (min-width: 600px){
         --fonts_xs: 0.66666666666rem;
         --fonts_headings: 2.44444444444rem; /* 44px */
         --fonts_headings_large: 5.05555555556rem; /* 91px */
@@ -112,7 +112,7 @@ body{
     --line_large: 2rem;
     --line_headings: 2.27777777778rem;
     --line_headings_large: 3.11111111111rem;
-    @media (min-width: 820px){
+    @media (min-width: 600px){
         --line_xs: 0.66666666666rem;
         --line_headings: 2.77777777778rem;
         --line_headings_large: 4.5rem;
@@ -204,7 +204,7 @@ body{
 }
 
 .tablet_hidden {
-    @media (min-width: 820px) and (max-width: 1439px) {
+    @media (min-width: 600px) and (max-width: 1439px) {
         display: none !important;
     }
 }
@@ -355,7 +355,6 @@ form {
         line-height: var(--line_reg);
         color: var(--color_foreground);
         gap: 8px;
-
         input:not([type="submit"]):not([type="button"]) {
             border-radius: 0;
             padding: 16.5px 24px;
@@ -371,6 +370,12 @@ form {
                 outline: none;
                 border-color: var(--color_accent);
             }
+            @media (min-width: 600px){
+                min-width: 550px;
+            }
+        }
+        @media (min-width: 600px){
+            width: fit-content;
         }
     }
     input[type="submit"],
@@ -399,6 +404,13 @@ form {
             padding-right: 15px;
             margin-left: 0;
         }
+        @media (min-width: 600px){
+            margin-bottom: 17px;
+        }
+    }
+    @media (min-width: 600px){
+        flex-direction: row;
+        align-items: end;
     }
 }
 /* BUTTONS */
