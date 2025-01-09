@@ -334,7 +334,9 @@ em.text_magic{
 }
 section.body_text{
     display: grid;
+    max-width: 908px;
     gap: 25px;
+    margin: 0 auto;
 }
 p + .text_subheading{
     margin-top: 11px;
