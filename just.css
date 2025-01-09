@@ -370,7 +370,7 @@ form {
                 outline: none;
                 border-color: var(--color_accent);
             }
-            @media (min-width: 600px){
+            @media (min-width: 640px){
                 min-width: 0;
             }
         }
@@ -401,11 +401,11 @@ form {
             padding-right: 15px;
             margin-left: 0;
         }
-        @media (min-width: 600px){
+        @media (min-width: 640px){
             margin-bottom: 17px;
         }
     }
-    @media (min-width: 600px){
+    @media (min-width: 640px){
         flex-direction: row;
         align-items: end;
     }
