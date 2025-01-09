@@ -301,6 +301,9 @@ a.footer_link{
     font-family: var(--font_magic) !important;
     color: var(--color_accent) !important;
 }
+em.text_magic{
+    font-style: normal;
+}
 .h1 > .text_magic{
     font-size: inherit;
 }
