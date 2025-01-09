@@ -98,7 +98,8 @@ body{
         --fonts_headings: 2.44444444444rem; /* 44px */
         --fonts_headings_large: 5.05555555556rem; /* 91px */
     }
-    @media (min-width: 1440px){
+    @media (min-width: 1050px){
+        --fonts_reg: 1.1111111rem; /* 18px */
         --fonts_headings: 3.55555555556rem; /* 64px */
         --fonts_headings_large: 6.66666666667rem; /* 120px */
     }
@@ -117,7 +118,7 @@ body{
         --line_headings: 2.77777777778rem;
         --line_headings_large: 4.5rem;
     }
-    @media (min-width: 1440px){
+    @media (min-width: 1050px){
         --line_headings: 4rem;
         --line_headings_large: 6rem;
     }
