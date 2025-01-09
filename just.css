@@ -72,6 +72,55 @@ body{
     --color_background: var(--white);
     --color_foreground: var(--black);
     --color_accent: var(--orange);
+    background-color: var(--color_background);
+    color: var(--color_foreground);
+    font-family: var(--font_light); /*fallback */
+    /* Fonts */
+    --font_reg: "Antique-Legacy-Regular";
+    --font_light: "Antique-Legacy-Light";
+    --font_magic: "Parabole Display";
+
+    /* Font Sizes*/
+    --fonts_xs: 0.55555555555rem;
+    --fonts_small: 0.8888rem; /* 16px */
+    --fonts_reg: 1rem; /* 18px */
+    --fonts_medium: 1.1111rem; /* 20px */
+    --fonts_subheadings: 1.333333rem; /* 24px */
+    --fonts_large: 1.44444rem; /* 26px */
+    --fonts_headings: 1.77777777778rem; /* 32px */
+    --fonts_headings_large: 3.55555555556rem; /* 64px */
+    @media (max-width: 370px){ /* very small to small phones */
+        --fonts_small: 0.8rem; /* 16px */
+        --fonts_reg: 0.8rem; /* 18px */
+    }
+    @media (min-width: 820px){
+        --fonts_xs: 0.66666666666rem;
+        --fonts_headings: 2.44444444444rem; /* 44px */
+        --fonts_headings_large: 5.05555555556rem; /* 91px */
+    }
+    @media (min-width: 1440px){
+        --fonts_headings: 3.55555555556rem; /* 64px */
+        --fonts_headings_large: 6.66666666667rem; /* 120px */
+    }
+
+    /* Line Heights */
+    --line_xs: 0.55555555555rem;
+    --line_small: 1.38888888889rem;
+    --line_reg: 1.55555555556rem;
+    --line_medium: 1.11111111111rem;
+    --line_subheadings: 1.83333333333rem;
+    --line_large: 2rem;
+    --line_headings: 2.27777777778rem;
+    --line_headings_large: 3.11111111111rem;
+    @media (min-width: 820px){
+        --line_xs: 0.66666666666rem;
+        --line_headings: 2.77777777778rem;
+        --line_headings_large: 4.5rem;
+    }
+    @media (min-width: 1440px){
+        --line_headings: 4rem;
+        --line_headings_large: 6rem;
+    }
     .show_dark {
         display: none;
     }
@@ -142,54 +191,6 @@ body{
                 fill: var(--color_foreground);
             }
         }
-    }
-}
-body{
-    background-color: var(--color_background);
-    color: var(--color_foreground);
-    font-family: var(--font_light); /*fallback */
-    /* Fonts */
-    --font_reg: "Antique-Legacy-Regular";
-    --font_light: "Antique-Legacy-Light";
-    --font_magic: "Parabole Display";
-
-    /* Font Sizes*/
-    --fonts_xs: 0.55555555555rem;
-    --fonts_small: 0.8888rem; /* 16px */
-    --fonts_reg: 1rem; /* 18px */
-    --fonts_medium: 1.1111rem; /* 20px */
-    --fonts_subheadings: 1.333333rem; /* 24px */
-    --fonts_large: 1.44444rem; /* 26px */
-    --fonts_headings: 1.77777777778rem; /* 32px */
-    --fonts_headings_large: 3.55555555556rem; /* 64px */
-    
-    @media (min-width: 820px){
-        --fonts_xs: 0.66666666666rem;
-        --fonts_headings: 2.44444444444rem; /* 44px */
-        --fonts_headings_large: 5.05555555556rem; /* 91px */
-    }
-    @media (min-width: 1440px){
-        --fonts_headings: 3.55555555556rem; /* 64px */
-        --fonts_headings_large: 6.66666666667rem; /* 120px */
-    }
-
-    /* Line Heights */
-    --line_xs: 0.55555555555rem;
-    --line_small: 1.38888888889rem;
-    --line_reg: 1.55555555556rem;
-    --line_medium: 1.11111111111rem;
-    --line_subheadings: 1.83333333333rem;
-    --line_large: 2rem;
-    --line_headings: 2.27777777778rem;
-    --line_headings_large: 3.11111111111rem;
-    @media (min-width: 820px){
-        --line_xs: 0.66666666666rem;
-        --line_headings: 2.77777777778rem;
-        --line_headings_large: 4.5rem;
-    }
-    @media (min-width: 1440px){
-        --line_headings: 4rem;
-        --line_headings_large: 6rem;
     }
 }
 .hidden {
