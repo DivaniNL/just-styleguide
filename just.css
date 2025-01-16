@@ -220,17 +220,17 @@ body{
 p.text_body{
     font-size: var(--fonts_reg);
     line-height: var(--line_reg);
-    font-family: var(--font_light);
+    font-family: var(--font_light), Verdana, sans-serif;
 }
 .h1, .h2{
-    font-family: var(--font_reg);
+    font-family: var(--font_reg), Verdana, sans-serif;
     text-transform: uppercase;
     font-size: var(--fonts_headings_large);
     line-height: var(--line_headings_large);
     color: var(--color_foreground);
 }
 .h3, .h4, .h5{
-    font-family: var(--font_reg);
+    font-family: var(--font_reg), Verdana, sans-serif;
     font-size: var(--fonts_headings);
     line-height: var(--line_headings);
     color: var(--color_foreground);
@@ -240,7 +240,7 @@ a.text_link{
     background-color: var(--color_background);
     border: none;
     color: var(--color_accent);
-    font-family: var(--font_light);
+    font-family: var(--font_light), Verdana, sans-serif;
     text-decoration: none;
     position: relative;
     &:after {
@@ -269,7 +269,7 @@ a.footer_link{
     line-height: var(--line_reg);
     color: var(--color_foreground);
     text-decoration: none;
-    font-family: var(--font_light);
+    font-family: var(--font_light), Verdana, sans-serif;
     position: relative;
     &:after {
         
@@ -300,7 +300,7 @@ a.footer_link{
     font-size: inherit;
 }
 .text_magic{
-    font-family: var(--font_magic) !important;
+    font-family: var(--font_magic), Verdana, sans-serif !important;
     color: var(--color_accent) !important;
 }
 em.text_magic{
@@ -312,19 +312,19 @@ em.text_magic{
 .text_small{
     font-size: var(--fonts_small);
     line-height: var(--line_small);
-    font-family: var(--font_light);
+    font-family: var(--font_light), Verdana, sans-serif;
     font-weight: 300 !important;
 }
 .text_medium{
     font-size: var(--fonts_medium);
     line-height: var(--line_medium);
-    font-family: var(--font_light);
+    font-family: var(--font_light), Verdana, sans-serif;
     font-weight: 300 !important;
 }
 .text_large{
     font-size: var(--fonts_large);
     line-height: var(--line_large);
-    font-family: var(--font_light);
+    font-family: var(--font_light), Verdana, sans-serif;
 }
 .text_subheading{
     font-weight: 400;
@@ -354,7 +354,7 @@ form {
         display: flex;
         flex-direction: column;
         font-size: var(--fonts_reg);
-        font-family: var(--font_light);
+        font-family: var(--font_light), Verdana, sans-serif;
         line-height: var(--line_reg);
         color: var(--color_foreground);
         gap: 8px;
@@ -416,7 +416,7 @@ form {
 /* BUTTONS */
 button.btn_main{
     text-transform: uppercase;
-    font-family: var(--font_reg);
+    font-family: var(--font_reg), Verdana, sans-serif;
     border: none;
     padding: 7px 10px;
     font-size: var(--fonts_xs);
