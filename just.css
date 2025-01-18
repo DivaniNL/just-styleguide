@@ -69,6 +69,7 @@ body{
     --purple: #A560FF;
     --green: #00C46D;
     --pink: #F3A0D6;
+    --red: #FF5252;
     --color_background: var(--white);
     --color_foreground: var(--black);
     --color_accent: var(--orange);
@@ -372,6 +373,12 @@ form {
             &:focus{
                 outline: none;
                 border-color: var(--color_accent);
+            }
+            &:user-valid{
+                border-color: var(--color_accent);
+            }
+            &:user-invalid{
+                border-color: var(--red);
             }
             @media (min-width: 640px){
                 min-width: 0;
